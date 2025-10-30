@@ -16,5 +16,5 @@ steps:
       inputs:
         testTarget: 'TestProject'
         orchestratorConnection: 'CICDDevops_New'
-        testProjectPath: '"C:\Users\atisha.raikar\.omnisharp\Documents\UiPath\CICD_TestAutomation\project.json"'
+        testProjectPath: 'project.json'
         folderName: 'Modern'
