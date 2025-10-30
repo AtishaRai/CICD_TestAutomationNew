@@ -13,7 +13,7 @@ pool:
 steps:
 - task: UiPathTest@5
   inputs:
-    testTarget: 'TestSet'
+    testTarget: 'TestProject'
     orchestratorConnection: 'CICDDevops_New'
-    testSet: 'TestSet1'
+    testProjectPath: 'CICD_TestAutomation'
     folderName: 'Modern'
