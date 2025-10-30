@@ -15,5 +15,5 @@ steps:
   inputs:
     testTarget: 'TestSet'
     orchestratorConnection: 'CICDDevops_New'
-    testSet: 'Testset'
+    testSet: 'TestSet1'
     folderName: 'Modern'
