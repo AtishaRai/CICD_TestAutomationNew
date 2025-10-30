@@ -13,8 +13,9 @@ pool:
 steps:
 
     - task: UiPathTest@5
-      inputs:
-        testTarget: 'TestProject'
-        orchestratorConnection: 'CICDDevops_New'
-        testProjectPath: 'project.json'
-        folderName: 'Modern'
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'ConnectionDemo'
+    testProjectPath: 'project.json'
+    folderName: 'Modern''
+     
