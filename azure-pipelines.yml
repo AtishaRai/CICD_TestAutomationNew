@@ -11,10 +11,9 @@ pool:
   vmImage: windows-latest
 
 steps:
-
 - task: UiPathTest@5
   inputs:
     testTarget: 'TestSet'
-    orchestratorConnection: 'DevopsCicd'
-    testSet: 'TestSet'
+    orchestratorConnection: 'DevopsUiPathExternalApplication'
+    testSet: 'Testset'
     folderName: 'Modern'
