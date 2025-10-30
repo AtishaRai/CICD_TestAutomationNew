@@ -11,9 +11,10 @@ pool:
   vmImage: windows-latest
 
 steps:
-- task: UiPathTest@5
-  inputs:
-    testTarget: 'TestProject'
-    orchestratorConnection: 'CICDDevops_New'
-    testProjectPath: 'C:\Users\atisha.raikar\.omnisharp\Documents\UiPath\CICD_TestAutomation\project.json'
-    folderName: 'Modern'
+
+    - task: UiPathTest@5
+      inputs:
+        testTarget: 'TestProject'
+        orchestratorConnection: 'CICDDevops_New'
+        testProjectPath: '"C:\Users\atisha.raikar\.omnisharp\Documents\UiPath\CICD_TestAutomation\project.json"'
+        folderName: 'Modern'
