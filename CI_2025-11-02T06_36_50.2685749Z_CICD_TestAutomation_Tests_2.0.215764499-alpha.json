@@ -1,0 +1,72 @@
+{
+  "TestSetExecutions": [
+    {
+      "Id": 3131796,
+      "TestSetId": 185812,
+      "Name": "Automated - CICD_TestAutomation - 2.0.215764499-alpha",
+      "Environment": "Modern",
+      "TestCasesCount": 2,
+      "FailuresCount": 1,
+      "Time": 20047.0,
+      "DurationMs": 20047.0,
+      "Packages": [
+        {
+          "Name": "CICD_TestAutomation_Tests",
+          "Version": "2.0.215764499-alpha"
+        }
+      ],
+      "StartTime": "2025-11-02T06:36:51.7",
+      "TestCaseExecutions": [
+        {
+          "Id": 5194507,
+          "TestCaseId": 371277,
+          "Name": "TC_SubtractNUmbers.xaml",
+          "Assertions": [
+            {
+              "Message": "Verify Expression",
+              "Succeeded": false
+            }
+          ],
+          "Info": "Job completed",
+          "PackageIdentifier": "CICD_TestAutomation",
+          "Status": "Failed",
+          "StartTime": "2025-11-02T06:36:51.7",
+          "JobId": "586862290",
+          "DurationMs": 15747.0,
+          "EntryPointPath": "TC_SubtractNUmbers.xaml",
+          "VersionNumber": "2.0.215764499-alpha",
+          "InputArguments": null,
+          "OutputArguments": "{}",
+          "RobotLogs": null,
+          "DataVariationIdentifier": null
+        },
+        {
+          "Id": 5194508,
+          "TestCaseId": 371278,
+          "Name": "TC_AddNumbers.xaml",
+          "Assertions": [
+            {
+              "Message": "Verify Expression",
+              "Succeeded": true
+            }
+          ],
+          "Info": "Job completed",
+          "PackageIdentifier": "CICD_TestAutomation",
+          "Status": "Passed",
+          "StartTime": "2025-11-02T06:37:08.363",
+          "JobId": "586862291",
+          "DurationMs": 3384.0,
+          "EntryPointPath": "TC_AddNumbers.xaml",
+          "VersionNumber": "2.0.215764499-alpha",
+          "InputArguments": null,
+          "OutputArguments": "{}",
+          "RobotLogs": null,
+          "DataVariationIdentifier": null
+        }
+      ],
+      "CanceledCount": 0,
+      "Status": "Failed",
+      "ErrorsCount": 0
+    }
+  ]
+}
